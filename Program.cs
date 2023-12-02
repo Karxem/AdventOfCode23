@@ -4,8 +4,10 @@ public class AdventOfCode
 {
     public static void Main(string[] args)
     {
+        // Path to the given input.txt
+        string path = @"AdventOfCode\assets\input.txt";
+
         List<int> validNumbers = new List<int>();
-        string path = @"E:\Documents\GitHub\AdventOfCode\assets\input.txt";
         string[] strings = File.ReadAllText(path).Split(
             new string[] { Environment.NewLine },
             StringSplitOptions.None
